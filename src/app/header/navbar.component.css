@@ -1,0 +1,99 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+
+.nav-list {
+    display: flex; /* Use flexbox to align the list items */
+    align-items: center; /* Center the items vertically */
+    list-style: none; /* Remove the default list style */
+    margin: 0; /* Remove the default margin */
+    padding: 0; /* Remove the default padding */
+    padding-block: 1.5rem;
+    justify-content: space-between; /* Space the items out evenly */
+    font-family: Century,arial,sans-serif;
+    margin-left: 4rem;
+    
+  }
+  .search-input {width:100%;}
+
+  .pinknova {
+    font-size: 42px; /* adjust the font size to your preference */
+    font-family: Century,arial,sans-serif;
+    
+  }
+  .search-input {
+    width: 40px; /* ou toute autre valeur que vous souhaitez */
+  }
+
+
+  .nav-list li {
+    margin: 0 1rem; /* Add some space between each list item */
+    font-family: Century,arial,sans-serif;
+  }
+
+  .nav-list a {
+    display: flex; /* Use flexbox to align the icon and text */
+    align-items: center; /* Center the items vertically */
+    text-decoration: none; /* Remove the default underline */
+    color: #333; /* Set the link color */
+    font-family: Century,arial,sans-serif;
+    
+  }
+
+  .nav-list a i {
+    margin-right: 0.5rem; /* Add some space between the icon and text */
+    transition: 0.5s;
+
+
+  }
+  .navbar-nav.ml-auto{padding-left: 130px;
+    transition: 0.5s;
+  
+}
+  .nav-right {
+    margin-left: auto; /* Push the items to the right */
+    font-family: Century,arial,sans-serif;
+  }
+  .navbar-nav {
+
+    font-family: Verdana , "Geneva", sans-serif;
+    background-image: -moz-linear-gradient();
+    background-size: 120%;   
+  }
+  .d-flex{margin-left: 70px;}
+  .navbar-nav > li {
+    margin-right: 1rem;
+    transform: translate(4rem);
+  }
+
+  .navbar-nav:last-child {
+    margin-left: auto;
+  }
+  .navbar-nav form {
+    display: flex; /* Use flexbox to align the form elements */
+    align-items: center; /* Center the elements vertically */
+  }
+
+  .search-input {
+    flex: 1;
+    width: auto; /* Use all available space */
+    padding: 20px 20px;
+    border-radius: 78px;
+  }
+  .navbar-nav.ms-auto {
+    margin-right: 100px;
+  }
+
+  .lady-lips-gradient { background-image: linear-gradient(to right, #cb9b18 0%, #d39e0b  51%, #d1b91d  100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px 20px;
+    border-radius: 55px;
+}
+
+  .search-input:focus {
+    width: auto; /* Expand the input when focused */
+  }
+.fa fa-search{padding-left: 20px;}
+  .search-btn {
+    margin-left: 1rem; /* Add some space between the input and icon */
+  }
+

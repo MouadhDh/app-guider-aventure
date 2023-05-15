@@ -1,0 +1,57 @@
+<div class="banner">
+    
+    <div class="content ">
+      <br>
+      <br>
+      <br>
+      <h1 class="mb-5"></h1>
+    </div>
+  </div>
+
+
+<div class="container">
+    <div class="row">
+        <h1>Explore your Dreams</h1><br>
+        <br>
+        <hr class="solid">
+        <br>
+        
+
+        <ng-container *ngFor="let item of datalist" >
+            <br>
+            <div class="card col-md-3" >
+                <img src="{{item.image}}" alt="">
+                <br>
+                <button type="" id="animatebutton3"
+                    class="btn btn-lg lady-lips-g text-white"
+                      >{{item.name}}</button >
+               
+                
+                <div>
+                    <p>{{item.description}}</p>
+                <div class="">
+                    <button type="" id="animatebutton"
+                    class="btn btn-lg lady-lips-gradient text-white"
+                      value="Log in"
+                      id="ac" >{{item.price}}.€ </button >
+                </div>
+                <br>
+                
+                <button type="submit" id="animatebutton2"
+                class="btn btn-lg lady-lips text-white"
+                  
+                (click)="goToDetails()" id="ac" >Get this</button>
+                </div>
+
+                
+                
+                <br>
+                
+            
+                
+
+                </div>
+                
+        </ng-container>
+    </div>
+</div>

@@ -1,0 +1,40 @@
+<br>
+  <div class="container ">
+    <div class="title">Registration</div>
+    <div class="content ">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username" required>
+          </div>
+          <div class="input-box" id="userEmail" >
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" [ngClass]="{ 'is-invalid': submitted && f['email'].errors }" #userName required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your number" required>
+          </div>
+          <div class="input-box" >
+            <span class="details" id="userPassword" >Password</span>
+            <input type="text" placeholder="Enter your password" [ngClass]="{ 'is-invalid': submitted && f['password'].errors }" #userPassword required>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="text" placeholder="Confirm your password" required>
+          </div>
+          
+        </div>
+        
+        <div class="button">
+          <input type="submit" value="Let's go" (click)="authService.SignUp(userName.value, userPassword.value)">
+        </div>
+      </form>
+    </div>
+  </div>
+<br>
